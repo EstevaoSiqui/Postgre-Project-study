@@ -84,3 +84,24 @@ ALTER TABLE "devolucoes" ADD FOREIGN KEY ("id_emprestimo") REFERENCES "emprestim
 ALTER TABLE "filme_devolucoes" ADD FOREIGN KEY ("id_devolucao") REFERENCES "devolucoes" ("id");
 
 ALTER TABLE "filme_devolucoes" ADD FOREIGN KEY ("id_filme_imprestimo") REFERENCES "filmes_emprestimos" ("id");
+
+
+-- INSERT INTO atores (nome) VALUES ('Bred Pitt');
+-- INSERT INTO atores (nome) VALUES ('Angelina Jolie');
+-- INSERT INTO atores (nome) VALUES ('Felicity Jones');
+-- 
+-- -- Generos
+-- INSERT INTO generos (genero) VALUES ('Comedia');
+-- INSERT INTO generos (genero) VALUES ('Terror');
+-- INSERT INTO generos (genero) VALUES ('Suspense');
+-- 
+-- -- Filmes
+-- INSERT INTO filmes(titulo, id_genero,valor) VALUES ('Tomb Raidder', 3, 8.99);
+-- INSERT INTO filmes(titulo, id_genero,valor) VALUES ('Star Wars', 2, 12.99);
+-- INSERT INTO filmes(titulo, id_genero,valor) VALUES ('Loucademia de Policia', 1, 5.99);
+
+-- Clientes
+-- INSERT INTO clientes (nome,sobrenome,telefone,endereco) VALUES ('Ricardo','Gomes','3499664528','Rua Gomes');
+-- INSERT INTO clientes (nome,sobrenome,telefone,endereco) VALUES ('Jorge','Paulo','24123615','Rua Armando');
+-- INSERT INTO clientes (nome,sobrenome,telefone,endereco) VALUES ('Raquel','Arantes','3224129830','Rua Arantes');
+
